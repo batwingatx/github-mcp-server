@@ -32,5 +32,8 @@ ui/node_modules/
 pkg/github/ui_dist/*
 !pkg/github/ui_dist/.gitkeep
 !pkg/github/ui_dist/.placeholder.html
+
+# ignore github-mcp-server and its logs
 BatwingGitHubMCP.stdout.log
 BatwingGitHubMCP.stderr.log
+**/github-mcp-server.exe
